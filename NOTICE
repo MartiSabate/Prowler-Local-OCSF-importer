@@ -1,0 +1,9 @@
+Prowler Local OCSF Importer
+
+This project integrates with open-source components from Prowler, distributed
+under the Apache License 2.0:
+https://github.com/prowler-cloud/prowler
+
+Prowler is a trademark of its respective owner. This independent proof of
+concept is not the official Prowler Cloud Import Findings feature and does not
+enable or bypass commercial functionality.

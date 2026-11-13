@@ -1,0 +1,7 @@
+services:
+  api:
+    volumes:
+      - ./extensions/ocsf-importer/ocsf_importer.py:/home/prowler/backend/api/management/ocsf_importer.py:ro
+      - ./extensions/ocsf-importer/commands/import_prowler_ocsf.py:/home/prowler/backend/api/management/commands/import_prowler_ocsf.py:ro
+      - ./extensions/ocsf-importer/commands/import_prowler_ocsf_directory.py:/home/prowler/backend/api/management/commands/import_prowler_ocsf_directory.py:ro
+      - "__REPORTS_DIR__:/imports:ro"
